@@ -1,0 +1,254 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* General */
+body {
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+}
+/* Button */
+.btn {
+  padding: 8px 16px;
+  background: transparent;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 2px solid #ffffff;
+}
+
+/* Container */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.padding {
+  padding: 80px 0;
+}
+.heading {
+  font-size: 28px;
+  text-transform: uppercase;
+  color: crimson;
+}
+.body-text {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 24px 0;
+}
+/* Header */
+.header {
+  background: #272727;
+  padding: 16px 0;
+}
+
+.navigation {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 125px);
+}
+.navigation a {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 32px;
+}
+.logo {
+  color: crimson;
+  text-transform: lowercase;
+  display: inline-block;
+  width: 120px;
+}
+.logo h1 {
+  display: inline-block;
+  font-size: 24px;
+}
+
+/* Hero */
+.hero {
+  background-color: #272727;
+  color: #ffffff;
+  padding: 120px 0;
+}
+.hero__heading {
+  font-size: 32px;
+  text-transform: uppercase;
+  max-width: 700px;
+}
+.hero__intro {
+  font-size: 18px;
+  color: #dadada;
+  margin: 24px 0;
+  max-width: 450px;
+}
+
+/* About */
+.about .btn {
+  color: crimson;
+  border-color: crimson;
+}
+
+/* Article */
+.article {
+  background: #f1f0f0;
+  text-align: center;
+}
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: crimson;
+  display: inline-block;
+  margin-top: 24px;
+}
+
+/* Footer */
+.footer {
+  background: crimson;
+  color: #ffffff;
+}
+.footer .heading {
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  background: transparent;
+  outline: 0;
+  border: 1px solid #ffffff;
+  padding: 8px 16px;
+  font-size: 18px;
+  color: #ffffff;
+  margin: 10px 0 24px 0;
+}
+.copyright {
+  margin-top: 24px;
+}
